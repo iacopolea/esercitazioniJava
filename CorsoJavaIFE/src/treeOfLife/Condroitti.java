@@ -1,8 +1,8 @@
 package treeOfLife;
 
-public abstract class Uccelli extends Vertebrati{
+public abstract class Condroitti extends Vertebrati {
 	private String taxon = "Classe";
-	private String name = "Aves";
+	private String name = "Chondrichthyes";
 	private String taxonomy = taxon +": "+ name;
 	
 	/**
@@ -12,10 +12,9 @@ public abstract class Uccelli extends Vertebrati{
 		return name;
 	}
 	public String getTaxon() {
-		return taxonomy;
+		return taxon;
 	}
 	public String getTaxonomy() {
 		return taxonomy +" - "+ super.getTaxonomy();
 	}
-
 }

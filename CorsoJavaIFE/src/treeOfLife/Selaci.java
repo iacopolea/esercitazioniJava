@@ -1,13 +1,10 @@
 package treeOfLife;
 
-public class Tigre extends Mammiferi implements Locomozione {
-	private double v = 15; //velocità della tigre in km/h;
-
-	private String taxon = "Specie";
-	private String name = "Panthera tigris";
+public class Selaci extends Condroitti implements Locomozione {
+	private String taxon = "Superordine";
+	private String name = "Selachimorpha";
 	private String taxonomy = taxon +": "+ name;
 
-	
 	/**
 	 * @return the taxonomy name and complete taxonomy
 	 */
@@ -20,12 +17,12 @@ public class Tigre extends Mammiferi implements Locomozione {
 	public String getTaxonomy() {
 		return taxonomy +" - "+ super.getTaxonomy();
 	}
-
 	
-	public String muovi (double t) {		
+	
+	public String muovi (double t) {
+		double v = 18; // velocità in nodi
 		double deltaS = v * t;
-		String msg = "Hai corso per " + deltaS + " Km";
+		String msg = ("Hai nuotato per " + deltaS + " Miglia");
 		return msg;
 	}	
-
 }

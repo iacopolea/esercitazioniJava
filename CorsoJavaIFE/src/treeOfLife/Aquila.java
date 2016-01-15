@@ -1,13 +1,32 @@
 package treeOfLife;
 
-public class Aquila extends Animale implements Locomozione {
-	String nome = "aquila";
-	@Override
-	public void muovi(double t) {
+public class Aquila extends Uccelli implements Locomozione {
+	private String taxon = "Genere";
+	private String name = "Aquila";
+	private String taxonomy = taxon +": "+ name;
+	
+	/**
+	 * @return the taxonomy name and complete taxonomy
+	 */
+	public String getName() {
+		return name;
+	}
+	public String getTaxon() {
+		return taxonomy;
+	}
+	public String getTaxonomy() {
+		return taxonomy +" - "+ super.getTaxonomy();
+	}	
+	
+
+
+	
+	public String muovi(double t) {
 		
 		double v = 18; // velocità in Km/h
 		double deltaS = v * t;
-		System.out.println("Hai volato per " + deltaS + " Km");
+		String msg = "Hai volato per " + deltaS + " Km";
+		return msg;
 	}
 
 }

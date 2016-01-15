@@ -1,21 +1,20 @@
 package treeOfLife;
 
-public abstract class Uccelli extends Vertebrati{
-	private String taxon = "Classe";
-	private String name = "Aves";
+public abstract class Vertebrati extends Animale implements Locomozione{
+	private String taxon = "Subphylum";
+	private String name = "Vertebrata";
 	private String taxonomy = taxon +": "+ name;
 	
 	/**
-	 * @return the taxonomy name and complete taxonomy
+	 * @return the taxon and name
 	 */
 	public String getName() {
 		return name;
 	}
 	public String getTaxon() {
-		return taxonomy;
+		return taxon;
 	}
 	public String getTaxonomy() {
 		return taxonomy +" - "+ super.getTaxonomy();
 	}
-
 }

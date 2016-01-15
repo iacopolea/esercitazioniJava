@@ -1,6 +1,8 @@
 package treeOfLife;
 
-public interface Locomozione {
-	String nome = null;
-	void muovi (double tempo);
+abstract interface Locomozione {
+	
+	public String nome_interfaccia = "movimento";
+	
+	abstract String muovi (double tempo);
 }
