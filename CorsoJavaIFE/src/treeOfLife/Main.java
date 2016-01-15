@@ -24,7 +24,7 @@ public class Main {
 			IO.print("Per quante ore vuoi volare?");	
 		}	
 		
-		double t = IO.catchDoub(); // leggo la variabile tempo
+		double t = IO.catchDoub(); // leggo la variabile tempo 
 		
 		IO.print("Tassonomia >>> " + outputTassonomia(player));
 		IO.print(outputLocomozione(player, t));

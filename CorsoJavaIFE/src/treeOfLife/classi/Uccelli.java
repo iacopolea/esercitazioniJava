@@ -1,4 +1,6 @@
-package treeOfLife;
+package treeOfLife.classi;
+
+import treeOfLife.Vertebrati;
 
 public abstract class Uccelli extends Vertebrati{
 	private String taxon = "Classe";
