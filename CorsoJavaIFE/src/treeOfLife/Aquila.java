@@ -1,6 +1,5 @@
 package treeOfLife;
-
-import treeOfLife.classi.Uccelli;
+import treeOfLife.sistematica.Uccelli;
 
 public class Aquila extends Uccelli implements Locomozione {
 	private String taxon = "Genere";

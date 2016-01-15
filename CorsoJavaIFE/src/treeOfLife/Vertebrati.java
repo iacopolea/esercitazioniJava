@@ -1,5 +1,7 @@
 package treeOfLife;
 
+import treeOfLife.sistematica.Animale;
+
 public abstract class Vertebrati extends Animale implements Locomozione{
 	private String taxon = "Subphylum";
 	private String name = "Vertebrata";

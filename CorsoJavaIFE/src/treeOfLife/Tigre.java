@@ -1,5 +1,7 @@
 package treeOfLife;
 
+import treeOfLife.sistematica.Mammiferi;
+
 public class Tigre extends Mammiferi implements Locomozione {
 	private double v = 15; //velocità della tigre in km/h;
 

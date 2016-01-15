@@ -1,5 +1,7 @@
 package treeOfLife;
 
+import treeOfLife.sistematica.Condroitti;
+
 public class Selaci extends Condroitti implements Locomozione {
 	private String taxon = "Superordine";
 	private String name = "Selachimorpha";

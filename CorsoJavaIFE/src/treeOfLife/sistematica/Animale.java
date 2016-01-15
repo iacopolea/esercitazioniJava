@@ -1,4 +1,4 @@
-package treeOfLife;
+package treeOfLife.sistematica;
 
 public abstract class Animale {
 	private String name = "Animalia";

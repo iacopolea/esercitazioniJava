@@ -1,4 +1,6 @@
-package treeOfLife	;
+package treeOfLife.sistematica	;
+
+import treeOfLife.Vertebrati;
 
 public abstract class Mammiferi extends Vertebrati {
 	protected String taxon = "Classe";

@@ -1,4 +1,4 @@
-package treeOfLife.classi;
+package treeOfLife.sistematica;
 
 import treeOfLife.Vertebrati;
 
