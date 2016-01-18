@@ -1,5 +1,6 @@
 package treeOfLife;
 
+import treeOfLife.interfacce.Locomozione;
 import treeOfLife.sistematica.Condroitti;
 
 public class Selaci extends Condroitti implements Locomozione {

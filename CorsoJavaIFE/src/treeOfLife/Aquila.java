@@ -1,4 +1,5 @@
 package treeOfLife;
+import treeOfLife.interfacce.Locomozione;
 import treeOfLife.sistematica.Uccelli;
 
 public class Aquila extends Uccelli implements Locomozione {

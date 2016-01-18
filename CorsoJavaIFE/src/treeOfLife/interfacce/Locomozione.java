@@ -1,6 +1,6 @@
-package treeOfLife;
+package treeOfLife.interfacce;
 
-abstract interface Locomozione {
+public abstract interface Locomozione {
 	
 	public String nome_interfaccia = "movimento";
 	

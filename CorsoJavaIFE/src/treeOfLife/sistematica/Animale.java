@@ -8,12 +8,7 @@ public abstract class Animale {
 	/**
 	 * @return the taxon and name
 	 */
-	public String getName() {
-		return name;
-	}
-	public String getTaxon() {
-		return taxon;
-	}
+
 	public String getTaxonomy(){
 		return taxonomy;
 	}

@@ -1,8 +1,10 @@
 package treeOfLife;
 
+import treeOfLife.interfacce.Locomozione;
 import treeOfLife.sistematica.Mammiferi;
+import treeOfLife.interfacce.Taxonomy;
 
-public class Tigre extends Mammiferi implements Locomozione {
+public class Tigre extends Mammiferi implements Locomozione, Taxonomy {
 	private double v = 15; //velocità della tigre in km/h;
 
 	private String taxon = "Specie";
@@ -18,7 +20,7 @@ public class Tigre extends Mammiferi implements Locomozione {
 	}
 	public String getTaxon() {
 		return taxon;
-	}
+	}	
 	public String getTaxonomy() {
 		return taxonomy +" - "+ super.getTaxonomy();
 	}

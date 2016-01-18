@@ -1,21 +1,14 @@
 package treeOfLife.sistematica	;
 
-import treeOfLife.Vertebrati;
-
 public abstract class Mammiferi extends Vertebrati {
-	protected String taxon = "Classe";
+	private String taxon = "Classe";
 	private String name = "Mammalia";
 	private String taxonomy = taxon +": "+ name;
 	
 	/**
 	 * @return the taxonomy name and complete taxonomy
 	 */
-	public String getName() {
-		return name;
-	}
-	public String getTaxon() {
-		return taxon;
-	}
+
 	public String getTaxonomy() {
 		return taxonomy +" - "+ super.getTaxonomy();
 	}

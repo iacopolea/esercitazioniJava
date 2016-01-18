@@ -1,7 +1,5 @@
 package treeOfLife.sistematica;
 
-import treeOfLife.Vertebrati;
-
 public abstract class Condroitti extends Vertebrati {
 	private String taxon = "Classe";
 	private String name = "Chondrichthyes";

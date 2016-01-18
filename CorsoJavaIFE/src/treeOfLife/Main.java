@@ -1,5 +1,7 @@
 package treeOfLife;
 
+import treeOfLife.interfacce.Locomozione;
+import treeOfLife.sistematica.Vertebrati;
 import userInteractions.InOut;
 
 public class Main {
